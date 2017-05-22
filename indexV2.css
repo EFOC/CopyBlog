@@ -1,0 +1,544 @@
+body{
+    background-color: white;
+    font-size: 10px;
+}
+/*****************************
+******************************
+**********NAV****************
+******************************
+******************************/
+nav{
+    background-color: rgba(255, 255, 255, 0.22);
+    height: 55px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    color: #ff0707 !important;
+}
+.navbar-collapse{
+    position: relative;
+    bottom: 50px;
+    min-height: 1000px;
+    background-color: rgba(255, 255, 255, 0.22);
+}
+.navbar-toggle, .nav-btn{
+    bottom: 8px;
+    height: 55px;
+    width: 48px;
+    border-radius: 0px;
+    border-style: none;
+    border-left: solid #cccccc 1px !important;
+}
+.nav-letter{
+    color: red;
+    font-size: 30px;
+    position: relative;
+    left: 8px;
+    bottom: 2px;
+}
+.navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.22) !important;
+}
+.nav-btn{
+    border-style: none !important;
+    background-color: rgba(255, 255, 255, 0.22);
+}
+.nav-btn:hover .dropdown-menu{
+    
+}
+.dropdown-menu{
+    position: absolute;
+    width: 320px;
+    left: -190px;
+}
+.dropdown-menu li{
+    margin: 20px 30px;
+}
+.dropdown-menu li:first-of-type{
+    font-size: 22px;
+    font-weight: bold;
+    color: #a3a3a3;
+}
+.dropdown-menu li:nth-of-type(2){
+    color: black;
+    margin-bottom: 70px;
+}
+.dropdown-menu li:last-of-type{
+    color: gray;      
+}
+.dropdown-menu li:last-of-type a{
+    color: black;
+    display: inline-block;
+    padding: 0;
+}
+.dropdown-menu li:last-of-type a:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+.sign{
+    left: -2080%;
+    width: 2455%;
+    height: 210px;
+    background-color: black;
+    opacity: 0.85;
+}
+.sign .form-control{
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    opacity: 0.9;
+    background-color: black;
+    border-style: none;
+    border-bottom: solid 2px white;
+}
+
+
+
+/*****************************
+******************************
+**********CUSTOM DROPDOWN****************
+******************************
+******************************/
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    left: 0px;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover + .dropdown-content{
+    display: block;
+}
+.ab-nav{
+    position: relative;
+    bottom: 10px;
+}
+
+
+/**************************************************************************
+
+    NAV DROPDOWN PICTURE TAB
+
+**************************************************************************/
+.dropdown p:first-child{
+    position: relative;
+    left: 50px;
+}
+.dropdown ul{
+    left: -251px;
+    height: 200px;
+    width: 760px;
+    border-bottom: solid 2px black;
+}
+.dropdown ul li{
+    float: left;
+    margin-top: 10px;
+    margin-right: -40px;
+}
+
+.dropdown img{
+    width: 135px;
+    height: 90px;
+}
+.dropdown ul li p{
+    color: red;
+    font-size: 14px;
+}
+.dropdown ul li p:hover{
+    text-decoration: underline;
+}
+/*****************************
+PLACES-DROP && LATEST-NEWS-DROP
+******************************/
+.places-drop ul{
+    left: -425px;
+}
+.latest-drop ul{
+    left: -340px;
+}
+.latest-drop ul{
+    height: 250px;
+}
+.places-drop ul li, .latest-drop ul li{
+    margin-left: 70px;
+}
+.places-drop ul li p, .latest-drop ul li p{
+    font-weight: 100;
+    width: 130px;
+}
+.places-drop div:nth-child(3), .latest-drop div:nth-child(3){
+    margin-left: 50px;
+}
+.places-drop div:nth-child(4), .latest-drop div:nth-child(4){
+    margin-left: 100px;
+}
+.places-drop div:nth-child(3), .places-drop div:nth-child(4), .latest-drop div:nth-child(3), .latest-drop div:nth-child(4){
+    height: 50px;
+    width: 100px;
+    float: left;
+    
+}
+.places-drop div:nth-child(3) li, .places-drop div:nth-child(4) li, .latest-drop div:nth-child(3) li, .latest-drop div:nth-child(4) li{
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+}
+.places-drop div:nth-child(3) li a, .places-drop div:nth-child(4) li a, .latest-drop div:nth-child(3) li a, .latest-drop div:nth-child(4) li a{
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+}
+.places-drop div:nth-child(3) li a:hover, .places-drop div:nth-child(4) li a:hover, .latest-drop div:nth-child(3) li a:hover, .latest-drop div:nth-child(4) li a:hover{
+    color: red;
+}
+/*****************************
+MORE-DROPDOWN
+******************************/
+.more-dropdown{
+    min-width: 0px !important;
+    width: 150px !important;
+    min-height: 0px !important;
+    height: 0px !important;
+    left: 0px !important;
+    height: 40px !important;
+}
+.more-dropdown li{
+    font-size: 15px !important;
+}
+
+
+/*****************************
+**********LOGIN MODAL****************
+******************************/
+.fb-btn{
+    background-color: rgb(59, 89, 152);
+    color: white;
+    height: 55px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    z-index: 1;
+}
+.fb-btn:hover{
+    background-color: #2c2c2c;
+}
+.fb-btn p{
+    display: inline-block;
+    position: relative;
+    left: 55px;
+    font-size: 17px;
+}
+.fb-logo{
+    font-size: 30px;
+}
+.fb-btn span{
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-weight: bold;
+}
+.login .modal-content h3{
+    font-weight: bold;
+}
+.login .modal-content p{
+    font-size: 13px;
+}
+.login .modal-content{
+    color: #939393;
+}
+.fb-second-sentence{
+    position: relative;
+    top: 80px;
+}
+.fb-second-sentence span{
+    color: white;
+}
+
+/*****************************
+**********SEARCH MODAL****************
+******************************/
+.search .modal-body h3{
+    color: white;
+    font-weight: bold;
+}
+.navbar-form{
+    border-style: none;
+    position: absolute;
+    top: 88px;
+    left: 31px;
+    z-index: 1;
+    width: 94%;
+}
+.submit, .input-group, .input-group input{
+    height: 50px;
+    width: 100%;
+    margin: 7px 0px;
+}
+.input-group input{
+    font-size: 15px;
+}
+.input-group input:active{
+    border: solid red 2px;
+}
+.submit{
+    border-style: none;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+.submit:hover{
+    background-color: #676767;
+}
+
+/*****************************
+**********MODAL****************
+******************************/
+
+.icon-bar{
+    width: 16px !important;
+    position: relative;
+    left: 13px;
+    background-color: red !important;
+}
+.modal-content li a{
+    font-size: 25px;
+    margin: 5px 0px;
+    font-weight: bold;
+    color: white !important;
+    display: inline-block;
+}
+.modal-header{
+    border-style: none;
+    padding: 10px 20px;
+}
+.close{
+    color: white;
+}
+.modal-body{
+    padding: 0px 30px;
+}
+.modal-content li a:hover {
+    color: red !important;
+    text-decoration: underline;
+    background-color: black;
+}
+.modal-content li a:active{
+    background-color: black;
+}
+
+.modal-content{
+    background-color: black;
+    opacity: 0.9;
+    height: 890px;
+    width: 100%;
+}
+
+
+
+
+
+
+/*****************************
+******************************
+**********MAIN****************
+******************************
+******************************/
+
+
+.top-ads{
+    margin-top: 50px;
+    height: 90px;
+}
+.main{
+    margin-top: 46px;
+    border-top: 2px solid black;
+}
+
+.pic-caption, .sub-caption{
+    color: black;
+    display: inline-block;
+    height: 17%;
+    width: 60%;
+    position: relative;
+    bottom: 80px;
+    background-color: white;
+    font-size: 300%;
+    word-wrap: break-word;
+}
+.clickable{
+    margin-bottom: -72px;
+}
+.clickable:hover .pic-caption{
+    color: red;
+}
+.main-article > p{
+    color: #535252;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.sub-article:hover .sub-caption{
+    color: red;
+}
+.main-article img{
+    width: 100%;
+}
+/*****************************
+******************************
+**********ASIDE****************
+******************************
+******************************/
+.ads{
+    height: 230px;
+}
+.side-links li{
+    padding: 10px 10px;
+    border-top: 1px solid #c4c4c4;
+}
+.side-links a{
+    color: #4b4747;
+    font-size: 16px;
+}
+.side-links a:hover,
+.sub-article p:hover{
+    color: red;
+}
+.article-header-post{
+    font-size: 12px;
+    color: #7e7474;
+}
+/*****************************
+******************************
+**********SUB-ARTICLES****************
+******************************
+******************************/
+.sub-articles{
+    margin-bottom: 0px;
+}
+.sub-article img{
+    width: 100%;
+}
+.sub-caption{
+    font-weight: bold;
+}
+.article-header-title{
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    margin-right: 10px;
+}
+.article-header{
+    border-top: solid #cec4c4 1px;
+}
+
+/*****************************
+******************************
+**********MEDIA****************
+******************************
+******************************/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    body{
+        background-color: red;
+    }
+    .pic-caption{
+        width: 560px;
+    }
+
+    .sub-caption{
+        width: 80%;
+        font-size: 22px;
+        bottom: 60px;
+    }
+    .navbar-collapse{
+        min-height: 10px;
+    }
+    .modal-body{
+        left: 15px;
+    }
+    .modal-dialog{
+        width: 50%;
+        left: 25%;
+    }
+    
+    
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    body{
+        background-color: white;
+    }
+    .pic-caption{
+        width: 530px;
+        bottom: 60px;
+    }
+
+    .sub-caption{
+        width: 80%;
+        font-size: 22px;
+        bottom: 60px;
+    }
+    .pair .sub-caption{
+        bottom: 40px;
+    }
+    .navbar-collapse{
+        min-height: 10px;
+    }
+    
+    .sign{
+        left: -1000px;
+        width: 1300px;
+    }
+}
+
+@media only screen and (min-width:1200px)
+{
+    body{
+        background-color: green;
+    }
+    .ads{
+        height: 340px;
+    }
+    .pic-caption{
+        width: 530px;
+        bottom: 60px;
+    }
+
+    .sub-caption{
+        width: 80%;
+        font-size: 20px;
+        bottom: 60px;
+    }
+    .pair .sub-caption{
+        bottom: 40px;
+    }
+    .navbar-collapse{
+        min-height: 10px;
+    }
+    .sign{
+        left: -1000px;
+        width: 1400px;
+    }
+}
+

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css.map">
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="indexV2.css">
+        
+        <title>Blog</title>
+    </head>
+    <body>
+        
+        
+        
+        
+        
+    
+        <div class="container">
+            <!-- Modal -->
+            <div class="modal fade" id="option-list" role="dialog">
+                <div class="modal-dialog">
+                    
+                    <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="nav navbar-nav ">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Best Of Toronto</a></li>
+                                    <li><a href="#">Resurtants</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                    <li><a href="#">Places</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Neighbourhoods</a></li>
+                                    <li class="dropdown hidden-xs">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">MORE</a>
+                                        <ul class="dropdown-menu">
+                                        <li><a href="#">Patio Guide</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="visible-xs"><a href="#">Contests</a>
+                                    </li>
+                                    <li class="visible-xs"><a href="#">Patio Guide</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <!-- LogIn pop up starts here -->
+        <div class="container login">
+            <!-- Modal -->
+            
+            <div class="modal fade" id="logIn" role="dialog">
+                <div class="modal-dialog">
+                    <div class="fb-btn fb2"><span>f</span><p>Log in with Facebook</p>
+                    </div>
+                    <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <h3>Log in or Sign up</h3>
+                                <p>Sign up for a blogTO account to create to-do lists, mark favourites, save articles, upload photos and other special features.</p>
+                                                                                            
+                                <p class="fb-second-sentence">We’ll never post to Facebook without your permission. By signing up, I accept the <span>privacy policy</span> and <span>terms of service</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- LogIn pop up ends here -->
+        
+        <!-- Search pop up starts here -->
+        <div class="container search">
+            <!-- Modal -->
+            
+            <div class="modal fade" id="search" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <form class="navbar-form" role="search">
+                        <div class="input-group add-on">
+                            <input class="form-control" placeholder="Search blogTO.com" name="srch-term" id="srch-term" type="text">
+                        </div>
+                        <button type="submit" class="submit">Search</button>
+                    </form>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            
+                            <div class="modal-body">
+                                <h3>What cha looking for?</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Search pop up ends here -->
+        
+
+
+        
+        
+        
+        
+        
+        
+        <!-- Here starts the NavBar -->
+        <!-- Here starts the XS NavBar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#search">
+                    <span class="nav-letter">S</span>
+                  </button>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#logIn">
+                    <span class="nav-letter">L</span>
+                  </button>
+                  <button type="button" class="navbar-toggle collapses" data-toggle="modal" data-target="#option-list">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    
+                    
+                  <a class="navbar-brand" href="#">blogTO</a>
+                </div>
+            </div>
+            <!-- Here ends the XS NavBar -->
+            <!-- Here starts the not XS NavBar -->
+                <div class="container">
+                <div class=" collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav ">
+                      <li><a class="navbar-brand" href="#">blogTO</a></li>
+                      <li><a href="#">Best Of Toronto</a></li>
+                      <li class="dropdown resturant-drop hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Restaurants</a>
+                          <ul class="dropdown-menu">
+                              <p>Recent Reviews</p>
+                              
+                              <li><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              
+                              <li><a href="#"><img src="images/tacos.jpg"><p>King's Tacos</p></a></li>
+                              
+                              <li><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              
+                              <li><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              
+                              <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              
+                              <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              
+                          </ul>
+                      </li>
+                      
+                      
+                      <li class="dropdown latest-drop hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Latest News</a>
+                          <ul class="dropdown-menu">
+                              <p>Recent Reviews</p>
+                              <div>
+                                  <li><a href="#"><img src="images/ttc-tracks.jpg"><p>TTC wants people to stop running on subway tracks</p></a></li>
+
+                                  <li><a href="#"><img src="images/food-review.jpg"><p>King's Tacos</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              </div>
+                              <div>
+                                  <ul>
+                                      <li><a href="#">Restaurants</a></li>
+                                      <li><a href="#">Bars</a></li>
+                                      <li><a href="#">Cafes</a></li>
+                                      <li><a href="#">Bakeries</a></li>
+                                      <li><a href="#">Grocery</a></li>
+                                      <li><a href="#">Fashion</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div>
+                                  <ul>
+                                      <li><a href="#">Design</a></li>
+                                      <li><a href="#">Bookstore</a></li>
+                                      <li><a href="#">Galleries</a></li>
+                                      <li><a href="#">Fitness</a></li>
+                                      <li><a href="#">Services</a></li>
+                                      <li><a href="#">Hotels</a></li>      
+                                  </ul>
+                              </div>
+                          </ul>
+                      </li>
+                      
+                      
+                      
+                      <li class="dropdown places-drop hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Places</a>
+                          <ul class="dropdown-menu">
+                              <p>Recent Reviews</p>
+                              <div>
+                                  <li><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li><a href="#"><img src="images/tacos.jpg"><p>King's Tacos</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+
+                                  <li class="hidden-sm"><a href="#"><img src="images/ramen.jpg"><p>Ajisen Ramen</p></a></li>
+                              </div>
+                              <div>
+                                  <ul>
+                                      <li><a href="#">Restaurants</a></li>
+                                      <li><a href="#">Bars</a></li>
+                                      <li><a href="#">Cafes</a></li>
+                                      <li><a href="#">Bakeries</a></li>
+                                      <li><a href="#">Grocery</a></li>
+                                      <li><a href="#">Fashion</a></li>
+                                  </ul>
+                              </div>
+                              
+                              <div>
+                                  <ul>
+                                      <li><a href="#">Design</a></li>
+                                      <li><a href="#">Bookstore</a></li>
+                                      <li><a href="#">Galleries</a></li>
+                                      <li><a href="#">Fitness</a></li>
+                                      <li><a href="#">Services</a></li>
+                                      <li><a href="#">Hotels</a></li>      
+                                  </ul>
+                              </div>
+                          </ul>
+                      </li>
+                      
+                      <li><a href="#">Events</a></li>
+                      <li><a href="#" class="hidden-sm">Neighbourhoods</a></li>
+                      <li><a href="#" class="hidden-sm">Contests</a></li>
+                      <li class="dropdown hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">More</a>
+                          <ul class="dropdown-menu more-dropdown">
+                              <li><a href="#">Patio Guide</a></li>
+                          </ul>
+                      </li>
+                      <li class="visible-xs"><a href="#">Contests</a></li>
+                      <li class="visible-xs"><a href="#">Patio Guide</a></li>
+                      
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle hidden-sm" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                      <li>
+                            <button type="button" class="nav-btn hidden-md hidden-lg" data-toggle="modal" data-target="#logIn">
+                            <span class="nav-letter">L</span>
+                            </button>
+                          
+                            <button type="button" class="nav-btn visible-md visible-lg"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="nav-letter">L</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>Log in or Sign up</li>
+                                <li>Sign up for a blogTO account to create to-do lists, mark favourites, save articles, upload photos and other special features.</li>
+                                
+                                <li>
+                                <div class="fb-btn fb2"><span>f</span><p>Log in with Facebook</p></div>
+                                </li>
+                                
+                                <li>We’ll never post to Facebook without your permission. By signing up, I accept the <a href="#">privacy policy</a> and <a href="#">terms of service</a>.</li>
+
+                            </ul>
+                      </li>
+                      <li>
+                            <button type="button" class="nav-btn hidden-md hidden-lg" data-toggle="modal" data-target="#search">
+                            <span class="nav-letter">S</span>
+                            </button>                        <button type="button" class="nav-btn visible-md visible-lg"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="nav-letter">S</span>
+                            </button>
+                          <ul class="dropdown-menu sign">
+                            <input class="form-control" placeholder="Search for restaurants, events, news, and more..." name="srch-term" id="srch-term" type="text">
+                          </ul>
+                      </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+                
+            </div>
+        </nav> <!-- Here ends the Navbar -->
+        
+        
+        
+        
+        
+        <!-- Here starts the Ads -->
+        <div class="top-ads hidden-xs">
+            
+        </div>
+        <!-- Here ends the Ads -->
+        
+        <div class="main container">
+            
+            
+            <div class="row">
+                <ul class="nav">
+                    <li class="dropdown ab-nav">
+                              <div class="dropdown-content">
+                                <p>Recent Places</p>
+                                  <a href="#">recent</a>
+                              </div>
+                    </li>
+                </ul>
+                <div class="main-articles col-xs-12 col-md-8">
+                    <div class="hidden-xs article-header">
+                        <p>
+                            <span class="article-header-title">City</span>
+                            <span class="article-header-post">Posted 7 hours ago</span>
+                        </p>
+                    </div>
+                    <div class="main-article" id="a">
+                        <div class="clickable">
+                            <a href="#"><img src="images/bighouse.jpg">
+                                <p class="pic-caption" id="b"><strong>What kind of house <br> does $8 million buy you in Toronto?</strong></p>
+                            </a>
+                        </div>
+                        <p class="visible-xs">The $10+ million house in Toronto is the domain of the super-rich. In fact, there aren't generally more than a handful of these properties on the market at a...</p>
+                    </div>
+                </div>
+                
+                <div class="hidden-xs hidden-sm col-md-4 list-links">
+                    <div class="ads">
+
+                    </div>
+                    <h4 class="text-center"><strong>Treading posts this week</strong></h4>
+                    <ul class="list-unstyled side-links">
+                        <li><a href="#">Boycott looming for popular College Street bar</a></li>
+                        <li><a href="#">Toronto area home sells for $400,000 over asking price</a></li>
+                        <li><a href="#">What's open and closed Christmas Day in Toronto 2016</a></li>
+                        <li><a href="#">The top 40 resturants open Christmas Day in Toronto</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pair sub-articles col-xs-12 col-sm-6 col-md-6">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                     <div class="pair sub-articles col-xs-12 col-sm-6 col-md-6">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+                <div class="sub-articles col-xs-12 col-sm-6 col-md-4">
+                        <div class="article-header hidden-xs">
+                            <p>
+                                <span class="article-header-title">Music</span>
+                                <span class="article-header-post">Posted 3 hours ago</span>
+                            </p>
+                        </div>
+                        <div class="sub-article">
+                            <a href="#">
+                                <img src="images/party.jpg">
+                                <p class="sub-caption">The Top 20 New Year's Eve parties in Toronto by neighbourhood</p>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+    
+    
+</html>
